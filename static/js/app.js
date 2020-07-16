@@ -5,8 +5,8 @@ d3.json("data/samples.json").then((importedData) => {
     const data = importedData;
 
 const samples = Object.values(data.samples);
-    // console.log(samples);
 const metadata = Object.values(data.metadata);
+    // console.log(samples);
     // console.log(metadata);
 //----------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ function buildMetadata() {
 
 function buildGauge(r) {
     var wfreq = r.wfreq;
-    console.log(wfreq);
+    // console.log(wfreq);
 
     var level = parseFloat(wfreq) * 20;
 
@@ -146,17 +146,18 @@ function buildGraphs() {
 
     // Build Bar Graph
     var this_sample = samples.filter(sample => sample.id == input_id);
-    console.log(this_sample);
+    // console.log(this_sample);
 
     var display_sample = this_sample[0]
+    // console.log(display_sample);
 
     var sample_otu = display_sample.otu_ids;
     var sample_values = display_sample.sample_values;
+    // console.log(sample_values);
     var top_otu = sample_otu.slice(0, 10);
     var top_values = sample_values.slice(0, 10);
     // console.log("sample: ", top_otu);
-    // console.log("values: ", top_values);
-    // console.log(right_order);
+    // console.log(top_values);
     var yticks = top_otu.map(otu_id => `OTU ${otu_id}`).reverse();
     // console.log("yticks: " + yticks);
 
