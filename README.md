@@ -27,5 +27,8 @@ The dataset reveals that a small handful of microbial species (also called opera
 ## Deployment
 The final [Dashboard](https://patelpurvip.github.io/BellyButton-Microbe-Dashboard/) has been deployed via Github Pages.
 
+![Deployed dashboard](Images/dashboard_demo.gif)
+
+
 ### About the Data
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
