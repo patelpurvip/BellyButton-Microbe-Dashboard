@@ -5,7 +5,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 ## Dashboard Components
 1. a dropdown menu that allows the user to chose the sample number for which they want to see data
-2. a panel dsiplaying the metadata demographic information for the individual from whom chosen sample was taken:
+2. a panel displaying the metadata demographic information for the individual from whom chosen sample was taken:
 3. a Plotly bar chart
 4. a Plotly bubble chart 
 5. a Plotly gauge graphic to display the "wash frequency", i.e. the number of times per dat that individual washed their navel.
