@@ -7,6 +7,7 @@ The dataset reveals that a small handful of microbial species (also called opera
 ## Dashboard Components
 1. a dropdown menu that allows the user to chose the sample number for which they want to see data
 2. a panel displaying the metadata demographic information for the individual from whom chosen sample was taken:
-3. a Plotly bar chart
-4. a Plotly bubble chart 
-5. a Plotly gauge graphic to display the "wash frequency", i.e. the number of times per dat that individual washed their navel.
+
+3. a Plotly bar chart displaying the frequency of 10 most common OTUs present in the chosen sample
+4. a Plotly bubble chart displaying all OTUs in the sample, where both the y-axis position and the size of the bubble indicate the frequency of each OTU, thus making the relative proportion of each OTU in the sample easier to see. OTU id numbers are also used to group the bubbles by color to differentiate the values a bit. 
+5. a Plotly gauge graphic to display the "wash frequency", i.e. the number of times per day that individuals washed their navel
