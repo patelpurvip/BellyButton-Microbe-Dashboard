@@ -1,6 +1,8 @@
 # [The Belly Button Biodiversity Dashboard](https://patelpurvip.github.io/BellyButton-Microbe-Dashboard/)
 This project was an exercise in dashboard-building using the JavaScript D3 and Plotly libraries. The resulting product is an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
 
+![Bubble Chart](Images/bubble.png)
+
 ## Background
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare. Data for each sample in the original dataset are read from `data/samples.json` into the Plotly graphs and data panels via the D3 library. 
 
