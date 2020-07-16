@@ -22,6 +22,8 @@ The dataset reveals that a small handful of microbial species (also called opera
 
 5. a Plotly gauge graphic to display the "wash frequency", i.e. the number of times per day that sample donors washed their navel
 
+## Deployment
+The final [Dashboard](https://patelpurvip.github.io/JS-Plotly-challenge/) has been deployed via Github Pages.
 
 ### About the Data
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
